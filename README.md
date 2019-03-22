@@ -3,9 +3,25 @@
 QASpaceReport for Cucumber4 is a Java library for creating proper artifact for Jenkins plugin.
 
 ## Installation
-
+Add repository in pom.xml file
+```java
+        <repository>
+            <id>Cucumber4-mvn-repo</id>
+            <url>https://raw.github.com/at-lab-development/Cucumber4/mvn-repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+```
 Add dependency in pom.xml file
-
+```java
+        <dependency>
+            <groupId>com.epam.jira</groupId>
+            <artifactId>cucumber4</artifactId>
+            <version>1.4</version>
+        </dependency>
+```
 ## Usage
 
 in your Runner add QASpaceReporter as a plugin
