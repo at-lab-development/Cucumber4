@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.epam.jira</groupId>
+  <artifactId>cucumber4</artifactId>
+  <versioning>
+    <release>1.4</release>
+    <versions>
+      <version>1.4</version>
+    </versions>
+    <lastUpdated>20190322135701</lastUpdated>
+  </versioning>
+</metadata>
